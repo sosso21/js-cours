@@ -1,0 +1,49 @@
+/*
+:root {
+    --Sorange: #fd7e14;
+    --Syellow: #ffc107;
+  }
+  exemple 
+  {
+    color : var(--Syellow) ;
+  }
+  
+  */
+
+
+.tab-content
+{
+    text-transform: capitalize;
+
+    display: none ;
+    overflow: hidden;
+}
+.afficher
+{
+    display: block;
+}
+.navbar a 
+{
+    color: black;
+}
+
+.navbar 
+{
+     background-image: linear-gradient( 15deg , #ffc107 ,#fd7e14  ) ;
+    
+   
+    padding: 0.5rem 3rem 0.5rem 3rem  ;
+    margin-bottom: 3rem;
+    list-style: none;
+    border-radius: 1rem;
+     
+}
+
+
+.navbar .actif {
+  color: #495057;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+
